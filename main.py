@@ -380,7 +380,7 @@ label_tipo_alg.grid(column=0, row=0)
 
 box_value = StringVar()
 box = ttk.Combobox(frame, textvariable=box_value)
-box['values'] = ('<-- Selecione -->', 'Força Bruta', 'Genético')
+box['values'] = ('<-- Selecione -->', 'Força Bruta')
 box.current(0)
 box.grid(column=1, row=0)
 
